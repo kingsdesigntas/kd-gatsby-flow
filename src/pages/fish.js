@@ -4,10 +4,10 @@ import * as styles from "./index.module.css";
 import HeadSEO from "/src/components/HeadSEO";
 import { StaticImage } from "gatsby-plugin-image";
 
-const IndexPage = () => {
+const Fish = () => {
 	return (
 		<Layout>
-			<HeadSEO title="KD Gatsby Flow" />
+			<HeadSEO title="Fish Page" />
 			<section class="alignfull">
 				<div class="alignmedium flow mx-auto">
 					<h1>I'm the top of the page</h1>
@@ -108,4 +108,4 @@ const IndexPage = () => {
 	);
 };
 
-export default IndexPage;
+export default Fish;
