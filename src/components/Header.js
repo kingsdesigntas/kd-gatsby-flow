@@ -1,4 +1,5 @@
 import React from "react";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
 	return (
@@ -60,7 +61,7 @@ const Header = () => {
 							</ul>
 						</div>
 					</nav>
-					<button
+					{/* <button
 						id="open-curtain-button"
 						aria-label="open navigation menu"
 						class="btn curtain-menu-button"
@@ -78,7 +79,8 @@ const Header = () => {
 								<rect x="6" y="34" width="36" height="4"></rect>
 							</g>
 						</svg>
-					</button>
+					</button> */}
+					<MobileMenu />
 				</div>
 			</div>
 		</header>
