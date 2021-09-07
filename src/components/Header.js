@@ -16,7 +16,7 @@ const Header = () => {
 						<path d="M0 0v20h71.6c1-1.6 2.1-3.1 3.4-4.6A62.6 62.6 0 01100 0zM0 30v20h57.5l1.6-3.3c2.5-5.4 4.6-11.2 7-16.7zM0 60v20h37.3c5.1-6.5 10.1-13 14.5-20z"></path>
 					</svg>
 
-					<span>flow</span>
+					<span>KDGATSBY</span>
 				</Link>
 				<div class="navigation-items">
 					<nav class="desktop-nav">
