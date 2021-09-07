@@ -10,7 +10,7 @@ const Fish = () => {
 			<HeadSEO title="Fish Page" />
 			<section class="alignfull">
 				<div class="alignmedium flow mx-auto">
-					<h1>I'm the top of the page</h1>
+					<h1>I'm the Fish Page</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
 						ratione quae sit quod sapiente cupiditate? Lorem, ipsum dolor sit

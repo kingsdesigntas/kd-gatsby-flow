@@ -8,9 +8,20 @@ const IndexPage = () => {
 	return (
 		<Layout>
 			<HeadSEO title="KD Gatsby Flow" />
+			<section class="banner banner-md first-block-negative-margin">
+				<StaticImage
+					src="../images/windmill.jpg"
+					alt="Diwash"
+					layout="fullWidth"
+					objectPosition="65% 50%"
+					aspectRatio="1"
+				/>
+				<div class="alignmedium mx-auto flow-space-xl">
+					<h2>I'm a real banner!</h2>
+				</div>
+			</section>
 			<section class="alignfull">
-				<div class="alignmedium flow mx-auto">
-					<h1>I'm the top of the page</h1>
+				<div class="alignmedium flow flow-top-xl mx-auto">
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
 						ratione quae sit quod sapiente cupiditate? Lorem, ipsum dolor sit

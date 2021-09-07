@@ -68,6 +68,7 @@ img {
     width: 100%;
     height: auto;
     background: var(--gray-100);
+    object-position: var(--focus, center);
 }
 
 /* Inherit fonts for inputs and buttons */

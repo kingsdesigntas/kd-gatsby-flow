@@ -1,15 +1,12 @@
 import React from "react";
 import MobileMenu from "./MobileMenu";
+import { Link } from "gatsby";
 
 const Header = () => {
 	return (
 		<header class="theme-header">
 			<div class="header-content">
-				<a
-					aria-label="brand logo"
-					href="https://flow.kingsdesign.info"
-					class="brand"
-				>
+				<Link aria-label="brand logo" to="/" class="brand">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						height="2rem"
@@ -20,15 +17,13 @@ const Header = () => {
 					</svg>
 
 					<span>flow</span>
-				</a>
+				</Link>
 				<div class="navigation-items">
 					<nav class="desktop-nav">
 						<div class="menu-primary_navigation-container">
 							<ul id="menu-primary_navigation-1" class="nav">
 								<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-157">
-									<a href="https://flow.kingsdesign.info/guys-by-the-truck/">
-										Guys by the Truck
-									</a>
+									<Link to="/fish">Fish</Link>
 								</li>
 								<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-162">
 									<a href="#">Dropdown</a>
@@ -55,8 +50,8 @@ const Header = () => {
 										</li>
 									</ul>
 								</li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354">
-									<a href="https://flow.kingsdesign.info/ffff/">ffff</a>
+								<li class="menu-item">
+									<Link to="/contact">Contact</Link>
 								</li>
 							</ul>
 						</div>

@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import FocusLock from "./FocusLock";
+import { Link } from "gatsby";
 
 const MobileMenu = () => {
 	const [isShowing, setIsShowing] = useState(false);
@@ -59,59 +60,28 @@ const MobileMenu = () => {
 							<nav>
 								<div class="menu-primary_navigation-container">
 									<ul id="menu-primary_navigation" class="nav">
-										<li
-											id="menu-item-157"
-											class="menu-item menu-item-type-post_type menu-item-object-post menu-item-157"
-										>
-											<a href="https://flow.kingsdesign.info/guys-by-the-truck/">
-												Guys by the Truck
-											</a>
+										<li class="menu-item">
+											<Link to="/fish">Fish</Link>
 										</li>
-										<li
-											id="menu-item-162"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-162"
-										>
+										<li class="menu-item menu-item-has-children">
 											<a href="#">Dropdown</a>
 											<ul class="sub-menu">
-												<li
-													id="menu-item-158"
-													class="menu-item menu-item-type-post_type menu-item-object-post menu-item-158"
-												>
-													<a href="https://flow.kingsdesign.info/just-some-boots/">
-														Just Some Boots
-													</a>
+												<li class="menu-item">
+													<Link to="/fish">Fish</Link>
 												</li>
-												<li
-													id="menu-item-159"
-													class="menu-item menu-item-type-post_type menu-item-object-post menu-item-159"
-												>
-													<a href="https://flow.kingsdesign.info/guy-in-a-tree/">
-														Guy in a Tree
-													</a>
+												<li class="menu-item">
+													<Link to="/fish">Fish</Link>
 												</li>
-												<li
-													id="menu-item-160"
-													class="menu-item menu-item-type-post_type menu-item-object-post menu-item-160"
-												>
-													<a href="https://flow.kingsdesign.info/the-cat/">
-														The Cat
-													</a>
+												<li class="menu-item">
+													<Link to="/fish">Fish</Link>
 												</li>
-												<li
-													id="menu-item-161"
-													class="menu-item menu-item-type-post_type menu-item-object-post menu-item-161"
-												>
-													<a href="https://flow.kingsdesign.info/tasmanian-trees/">
-														Tasmanian Trees
-													</a>
+												<li class="menu-item">
+													<Link to="/fish">Fish</Link>
 												</li>
 											</ul>
 										</li>
-										<li
-											id="menu-item-354"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354"
-										>
-											<a href="https://flow.kingsdesign.info/ffff/">ffff</a>
+										<li class="menu-item">
+											<Link to="/contact">Contact</Link>
 										</li>
 									</ul>
 								</div>{" "}
